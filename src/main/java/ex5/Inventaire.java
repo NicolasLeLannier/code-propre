@@ -20,7 +20,7 @@ public class Inventaire {
 		if (item.getPoids() < 5) {
 			caisses.get(0).getItems().add(item);
 		}
-		if (item.getPoids() >= 5 && item.getPoids() <= 20) {
+		if (item.getPoids() >= 5 && item.getPoids() < 20) {
 			caisses.get(1).getItems().add(item);
 		}
 		if (item.getPoids() >= 20) {
